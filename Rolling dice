@@ -4,7 +4,7 @@ score = 0
 
 while True:
   decision = input("Enter your desired number or enter 'q' to stop: ")
-  if decision == 'q':
+  if decision == 'quit':
     break
   
   desired_number = int(decision)
